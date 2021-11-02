@@ -1,14 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cadastrodealuno;
 
-/**
- *
- * @author mathe
- */
+import java.util.ArrayList;
+
 public class Sala {
+    ArrayList lista;
     
+    
+    public Sala() {
+        this.lista = new ArrayList<>(); 
+    }
+    
+    void inserirAluno(Aluno aluno) {
+        lista.add(aluno);
+    } 
+    
+    void listarAlunos() {
+        System.out.println("Lista de Alunos");
+        
+        for (Aluno a:lista) {
+            
+        }
+    }
 }

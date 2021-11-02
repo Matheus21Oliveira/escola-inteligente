@@ -6,6 +6,7 @@ public class CadastroDeAluno {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        Aluno aluno = new Aluno();
         int opçao, quantidade;
         float nota = 0;
         String nome,  matricula;
